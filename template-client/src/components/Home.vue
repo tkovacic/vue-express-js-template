@@ -19,7 +19,7 @@
       </div>
     </nav>
     <img class="animated slideInDown" style="height: 40px; width: 100%;" src="static/images/banner.jpg">
-    <div class="animated zoomIn" style="margin-top: 80px;">
+    <div class="animated slideInLeft" style="margin-top: 80px;">
       <h1 class="display-3">Dobar Don!</h1>
       <p class="lead">This is a vueJS / nodeJS template project used as a boilerplate</p>
       <hr class="my-4">
