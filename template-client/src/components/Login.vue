@@ -23,17 +23,19 @@
       <h1 class="display-3">Authentication</h1>
       <hr class="my-4">
       <div style="display: inline-flex; align-items: center;">
-        <form style="width: 600px;" method="POST" action="/login">
+        <form style="width: 600px;" method="POST" action="http://159.89.252.72:8081/login">
           <div class="form-group">
-            <label class="float-left" for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@email.com" required>
-            <small id="emailHelp" class="form-text text-muted float-left">We'll never share your email with anyone else.</small>
+            <label class="float-left" for="usrEmail">Email</label>
+            <input type="email" class="form-control" id="usrEmail" name="usrEmail" aria-describedby="emailHelp" placeholder="example@email.com" required>
           </div>
           <br>
           <div class="form-group">
-            <label class="float-left" for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" required>
+            <label class="float-left" for="usrPass">Password</label>
+            <input type="password" class="form-control" id="usrPass" name="usrPass" placeholder="password" required>
           </div>
+          <small id="emailHelp" class="form-text text-muted float-left">We will never share your email or password.</small>
+          <br>
+          <br>
           <button type="submit" class="btn btn-primary float-left">Submit</button>
         </form>
       </div>

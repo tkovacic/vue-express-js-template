@@ -8,18 +8,27 @@ const morgan = require('morgan');
 const app = express();
 
 app.use(morgan('combined'));
-app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 app.use(cors());
 
-app.get('/status', function(req, res) {
+app.get('/status', (req, res) => {
 	res.send({
 		message: 'live'
 	})
 });
 
-app.get('/register', function(req, res) {
+app.post('/login', (req, res) => {
 	res.send({
-		message: `Hello ${req.query.email} - Registration Complete!`
+		message: `Authenticated ${req.body.usrEmail}, ${req.body.usrPass} - Login Complete!`
+	})
+});
+
+app.post('/register', (req, res) => {
+	console.log(req.body);
+	res.send({
+		message: `Hello ${req.body.usrEmail} - Registration Complete!`
 	})
 });
 

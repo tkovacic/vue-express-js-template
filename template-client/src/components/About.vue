@@ -19,6 +19,21 @@
       </div>
     </nav>
     <img class="animated slideInDown" style="height: 40px; width: 100%;" src="static/images/banner.jpg">
+    <div style="margin-top: 80px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <a href="https://expressjs.com/" target="_blank"><img class="animated zoomIn" style="height: 260px;" src="static/images/expressJS.png"></a>
+          </div>
+          <div class="col-sm">
+            <a href="https://vuejs.org/" target="_blank"><img class="animated zoomIn" style="height: 260px;" src="static/images/vueJS.jpg"></a>
+          </div>
+          <div class="col-sm">
+            <a href="https://v4-alpha.getbootstrap.com/" target="_blank"><img class="animated zoomIn" style="height: 260px;" src="static/images/bootstrap.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
