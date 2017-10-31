@@ -1,15 +1,15 @@
 <template>
   <div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light animated slideInDown" style="background-color: #fff; height: 80px;">
-			<a class="navbar-brand animated zoomIn" href="/#/"><img class="animated zoomIn" style="width: 30px;" src="static/images/logo.png">
-				Template</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand animated zoomIn" href="/#/"><img class="animated zoomIn" style="width: 30px;" src="static/images/logo.png">
+        Template</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-			<div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav animated zoomIn">
           <li class="nav-item active">
-            <a class="nav-link" href="/#/about">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/#/about">About</a>
           </li>
         </ul>
 				<ul class="navbar-nav ml-auto">
@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: 'About',
+  name: 'Login',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
