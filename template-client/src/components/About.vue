@@ -1,11 +1,12 @@
 <template>
   <div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light animated slideInDown">
-      <a class="navbar-brand" href="/#/">Template</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<a class="navbar-brand" href="/#/"><img class="animated zoomIn" style="width: 30px;" src="static/images/logo.png">
+				Template</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+			<div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="/#/about">About <span class="sr-only">(current)</span></a>

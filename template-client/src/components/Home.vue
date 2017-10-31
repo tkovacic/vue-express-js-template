@@ -1,7 +1,8 @@
 <template>
   <div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light animated slideInDown">
-      <a class="navbar-brand" href="/#/">Template</a>
+      <a class="navbar-brand" href="/#/"><img class="animated zoomIn" style="width: 30px;" src="static/images/logo.png">
+        Template</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -14,7 +15,6 @@
       </div>
     </nav>
     <img class="animated slideInDown" style="height: 40px; width: 100%;" src="static/images/banner.jpg">
-    <img class="animated zoomIn" style="margin-top: 50px;" src="static/images/logo.png">
   </div>
 </template>
 
