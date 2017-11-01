@@ -3,10 +3,10 @@ var q = require('q');
 var config = require('../config/config.js');
 
 var connection = mysql.createConnection({
-	host     : config.db.host || 'localhost',
-	user     : config.db.user || 'dbuser',
-	password : config.db.pass || 's3kreee7',
-	database : config.db.database || 'my_db'
+	host     : config.db.host,
+	user     : config.db.user,
+	password : config.db.pass,
+	database : config.db.database
 });
 
 module.exports = {
