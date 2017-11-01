@@ -5,7 +5,6 @@ export default {
 		return api().post('register', email);
 	},
 	login(creds) {
-		console.log(creds);
 		return api().post('login', creds);
 	}
 }

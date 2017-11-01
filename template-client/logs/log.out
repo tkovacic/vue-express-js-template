@@ -1,117 +1,13 @@
 
-> template-client@1.0.0 start /home/vue-express-js-template/template-client
-> npm run dev
-
-
 > template-client@1.0.0 dev /home/vue-express-js-template/template-client
 > node build/dev-server.js
 
 > Starting dev server...
- DONE  Compiled successfully in 6658ms04:14:48
+ DONE  Compiled successfully in 5503ms06:54:10
 
 > Listening at http://localhost:8080
 
- WAIT  Compiling...04:17:56
+ WAIT  Compiling...06:56:02
 
- DONE  Compiled successfully in 892ms04:17:57
-
- WAIT  Compiling...04:18:09
-
- DONE  Compiled successfully in 936ms04:18:10
-
- WAIT  Compiling...04:20:54
-
- DONE  Compiled successfully in 1078ms04:20:55
-
- WAIT  Compiling...04:20:57
-
- DONE  Compiled successfully in 784ms04:20:58
-
- WAIT  Compiling...04:21:43
-
- ERROR  Failed to compile with 1 errors04:21:43
-
- error  in ./src/services/authService.js
-
-Syntax Error: Unexpected token, expected , (7:1)
-
-   5 | 		return api().post('register', credentials);
-   6 | 	}
->  7 | 	login(credentials) {
-     | 	^
-   8 | 		return api().post('login', credentials);
-   9 | 	}
-  10 | }
-
-
-
- @ ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./src/components/Login.vue 49:0-49
- @ ./src/components/Login.vue
- @ ./src/router/index.js
- @ ./src/main.js
- @ multi ./build/dev-client ./src/main.js
-
- WAIT  Compiling...04:22:11
-
- DONE  Compiled successfully in 919ms04:22:12
-
- WAIT  Compiling...04:23:03
-
- DONE  Compiled successfully in 621ms04:23:04
-
- WAIT  Compiling...04:23:54
-
- DONE  Compiled successfully in 801ms04:23:55
-
- WAIT  Compiling...04:26:20
-
- DONE  Compiled successfully in 838ms04:26:21
-
- WAIT  Compiling...04:27:10
-
- DONE  Compiled successfully in 692ms04:27:11
-
- WAIT  Compiling...04:39:03
-
- DONE  Compiled successfully in 1003ms04:39:04
-
- WAIT  Compiling...04:40:28
-
- DONE  Compiled successfully in 1259ms04:40:30
-
- WAIT  Compiling...04:41:05
-
- DONE  Compiled successfully in 801ms04:41:06
-
- WAIT  Compiling...04:51:30
-
- DONE  Compiled successfully in 938ms04:51:31
-
- WAIT  Compiling...04:59:38
-
- DONE  Compiled successfully in 1060ms04:59:39
-
- WAIT  Compiling...05:00:06
-
- DONE  Compiled successfully in 1213ms05:00:07
-
- WAIT  Compiling...05:00:37
-
- DONE  Compiled successfully in 1119ms05:00:38
-
- WAIT  Compiling...05:02:56
-
- DONE  Compiled successfully in 649ms05:02:57
-
- WAIT  Compiling...05:04:54
-
- DONE  Compiled successfully in 1036ms05:04:55
-
- WAIT  Compiling...05:05:05
-
- DONE  Compiled successfully in 854ms05:05:06
-
- WAIT  Compiling...05:06:52
-
- DONE  Compiled successfully in 981ms05:06:53
+ DONE  Compiled successfully in 1048ms06:56:03
 
