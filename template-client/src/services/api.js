@@ -2,6 +2,6 @@ import axios from 'axios';
 
 export default (function() {
 	return axios.create({
-		baseURL: 'http://localhost:8081/'
+		baseURL: 'http://159.89.252.72:8081/'
 	})
 })

@@ -1,0 +1,22 @@
+
+> template-server@1.0.0 start /home/vue-express-js-template/template-server
+> ./node_modules/nodemon/bin/nodemon.js src/app.js
+
+[33m[nodemon] 1.12.1[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node src/app.js`[39m
+hello world
+::ffff:68.58.216.242 - - [01/Nov/2017:04:59:18 +0000] "OPTIONS /login HTTP/1.1" 204 0 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:04:59:18 +0000] "POST /login HTTP/1.1" 200 48 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:04:59:45 +0000] "OPTIONS /login HTTP/1.1" 204 0 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:04:59:45 +0000] "POST /login HTTP/1.1" 200 56 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:05:00:15 +0000] "OPTIONS /login HTTP/1.1" 204 0 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:05:00:15 +0000] "POST /login HTTP/1.1" 200 56 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:05:00:47 +0000] "OPTIONS /login HTTP/1.1" 204 0 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:05:00:47 +0000] "POST /login HTTP/1.1" 200 56 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:05:02:32 +0000] "OPTIONS /login HTTP/1.1" 204 0 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:05:02:32 +0000] "POST /login HTTP/1.1" 200 56 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:05:07:46 +0000] "OPTIONS /register HTTP/1.1" 204 0 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+::ffff:68.58.216.242 - - [01/Nov/2017:05:07:46 +0000] "POST /register HTTP/1.1" 200 49 "http://159.89.252.72:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m

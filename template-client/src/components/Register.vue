@@ -23,27 +23,37 @@
       <h1 class="display-3">Registration</h1>
       <hr class="my-4">
       <div style="display: inline-flex; align-items: center;">
-        <form style="width: 600px;" method="POST" action="http://159.89.252.72:8081/register">
+        <div style="width: 600px;">
           <div class="form-group">
             <label class="float-left" for="usrEmail">Email</label>
-            <input type="email" class="form-control" id="usrEmail" name="usrEmail" aria-describedby="emailHelp" placeholder="example@email.com" required>
+            <input type="email" v-model="usrEmail" class="form-control" id="usrEmail" name="usrEmail" aria-describedby="emailHelp" placeholder="example@email.com" required>
           </div>
           <small id="emailHelp" class="form-text text-muted float-left">We will never share your email or password.</small>
           <br>
           <br>
-          <button type="submit" class="btn btn-primary float-left">Submit</button>
-        </form>
+          <button type="submit" v-on:click="register" class="btn btn-primary float-left">Submit</button>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import authService from '@/services/authService'
+
 export default {
-  name: 'Login',
+  name: 'Register',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      usrEmail: ''
+    }
+  },
+  methods: {
+    async register() {
+      const response = await authService.register({
+        usrEmail: this.usrEmail
+      })
+      console.log(response.data);
     }
   }
 }
