@@ -60,7 +60,7 @@ export default {
         usrEmail: this.usrEmail,
         usrPass: this.usrPass
       })
-      console.log(response.data);
+      alert(response.data);
     }
   }
 }

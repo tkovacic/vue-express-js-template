@@ -53,7 +53,7 @@ export default {
       const response = await authService.register({
         usrEmail: this.usrEmail
       })
-      console.log(response.data);
+      alert(response.data);
     }
   }
 }

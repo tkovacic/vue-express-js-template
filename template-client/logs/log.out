@@ -3,11 +3,15 @@
 > node build/dev-server.js
 
 > Starting dev server...
- DONE  Compiled successfully in 5503ms06:54:10
+ DONE  Compiled successfully in 4997ms08:09:25
 
 > Listening at http://localhost:8080
 
- WAIT  Compiling...06:56:02
+ WAIT  Compiling...08:23:13
 
- DONE  Compiled successfully in 1048ms06:56:03
+ DONE  Compiled successfully in 944ms08:23:14
+
+ WAIT  Compiling...08:23:20
+
+ DONE  Compiled successfully in 683ms08:23:21
 
