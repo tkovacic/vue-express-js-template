@@ -22,7 +22,7 @@
     <div class="animated fadeIn" style="margin-top: 80px;">
       <h1 class="display-3">Register Validation</h1>
       <hr class="my-4" style="height: 2px;">
-      <form @submit.prevent="validateForm" style="display: inline-flex; align-items: center;" novalidate>
+      <form @submit.prevent="validate" style="display: inline-flex; align-items: center;" novalidate>
         <div style="width: 600px;">
           <div class="form-group">
             <label class="float-left" for="usrCode">Validation Code</label>
@@ -52,17 +52,13 @@ export default {
     }
   },
   methods: {
-    validateForm(e) {
-      this.$validator.validateAll().then(function(result) {
-        if(!this.errors.any()) {
-          if(!result) {
-            //failed
-          } else {
-            this.errors.clear();
-            this.validate();
-          }
-        }
-      });
+    validate(e) {
+      this.$validator.validateAll();
+
+      if(!this.errors.any()) {
+        this.errors.clear();
+        this.validate();
+      }
     },
     async validate() {
       const response = await authService.validate({
