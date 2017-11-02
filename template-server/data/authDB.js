@@ -29,6 +29,12 @@ module.exports = {
 		return deferred.promise;
 	},
 	validate() {
-
+		var deferred = q.defer(); // Use Q
+		var codeMatch = false;
+		//deferred.reject(err);
+		//connection.connect();
+		deferred.resolve(codeMatch);
+		//connection.end();
+		return deferred.promise;
 	}
 }

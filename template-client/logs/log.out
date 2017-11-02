@@ -1,265 +1,669 @@
 
-> template-client@1.0.0 dev /home/vue-express-js-template/template-client
+> template-client@1.0.0 dev /home/project/template-client
 > node build/dev-server.js
 
 > Starting dev server...
- DONE  Compiled successfully in 4997ms08:09:25
+ DONE  Compiled successfully in 8397ms22:45:42
 
 > Listening at http://localhost:8080
 
- WAIT  Compiling...08:23:13
+ WAIT  Compiling...22:59:26
 
- DONE  Compiled successfully in 944ms08:23:14
+ DONE  Compiled successfully in 1303ms22:59:28
 
- WAIT  Compiling...08:23:20
+ WAIT  Compiling...23:08:34
 
- DONE  Compiled successfully in 683ms08:23:21
+ DONE  Compiled successfully in 840ms23:08:35
 
- WAIT  Compiling...20:48:13
+ WAIT  Compiling...23:09:06
 
- DONE  Compiled successfully in 1149ms20:48:15
+ DONE  Compiled successfully in 688ms23:09:07
 
- WAIT  Compiling...20:48:29
+ WAIT  Compiling...23:09:08
 
- DONE  Compiled successfully in 668ms20:48:30
+ DONE  Compiled successfully in 742ms23:09:09
 
- WAIT  Compiling...20:48:32
+ WAIT  Compiling...23:09:10
 
- DONE  Compiled successfully in 971ms20:48:33
+ DONE  Compiled successfully in 890ms23:09:11
 
- WAIT  Compiling...20:51:13
+ WAIT  Compiling...23:09:13
 
- DONE  Compiled successfully in 1118ms20:51:14
+ DONE  Compiled successfully in 638ms23:09:14
 
- WAIT  Compiling...20:52:01
+ WAIT  Compiling...23:10:21
 
- DONE  Compiled successfully in 926ms20:52:02
+ DONE  Compiled successfully in 1003ms23:10:22
 
- WAIT  Compiling...20:52:05
+ WAIT  Compiling...23:11:41
 
- DONE  Compiled successfully in 798ms20:52:06
+ DONE  Compiled successfully in 923ms23:11:42
 
- WAIT  Compiling...20:52:17
+ WAIT  Compiling...23:25:58
 
- DONE  Compiled successfully in 390ms20:52:18
+ DONE  Compiled successfully in 995ms23:26:00
 
- WAIT  Compiling...20:52:47
+ WAIT  Compiling...23:26:19
 
- DONE  Compiled successfully in 663ms20:52:48
+ DONE  Compiled successfully in 996ms23:26:20
 
- WAIT  Compiling...20:52:58
+ WAIT  Compiling...23:27:48
 
- DONE  Compiled successfully in 579ms20:52:58
+ DONE  Compiled successfully in 875ms23:27:49
 
- WAIT  Compiling...20:53:09
+ WAIT  Compiling...23:28:13
 
- DONE  Compiled successfully in 842ms20:53:11
+ DONE  Compiled successfully in 802ms23:28:14
 
- WAIT  Compiling...20:53:34
+ WAIT  Compiling...23:29:10
 
- DONE  Compiled successfully in 936ms20:53:35
+ DONE  Compiled successfully in 1023ms23:29:11
 
- WAIT  Compiling...20:53:49
+ WAIT  Compiling...23:29:48
 
- DONE  Compiled successfully in 725ms20:53:50
+ DONE  Compiled successfully in 814ms23:29:49
 
- WAIT  Compiling...20:54:41
+ WAIT  Compiling...23:29:59
 
- DONE  Compiled successfully in 1166ms20:54:42
+ DONE  Compiled successfully in 987ms23:30:00
 
- WAIT  Compiling...20:55:00
+ WAIT  Compiling...23:32:12
 
- DONE  Compiled successfully in 944ms20:55:01
+ DONE  Compiled successfully in 565ms23:32:13
 
- WAIT  Compiling...20:55:02
+ WAIT  Compiling...23:37:02
 
- DONE  Compiled successfully in 636ms20:55:03
+ DONE  Compiled successfully in 752ms23:37:03
 
- WAIT  Compiling...20:55:04
+ WAIT  Compiling...23:39:59
 
- DONE  Compiled successfully in 293ms20:55:05
+ DONE  Compiled successfully in 648ms23:40:00
 
- WAIT  Compiling...20:56:00
+ WAIT  Compiling...23:41:22
 
- DONE  Compiled successfully in 902ms20:56:01
+ DONE  Compiled successfully in 995ms23:41:24
 
- WAIT  Compiling...20:56:05
+ WAIT  Compiling...23:41:37
 
- DONE  Compiled successfully in 650ms20:56:06
+ DONE  Compiled successfully in 470ms23:41:37
 
- WAIT  Compiling...20:56:48
+ WAIT  Compiling...23:41:58
 
- DONE  Compiled successfully in 514ms20:56:48
+ DONE  Compiled successfully in 475ms23:41:59
 
- WAIT  Compiling...20:56:56
+ WAIT  Compiling...23:42:17
 
- DONE  Compiled successfully in 796ms20:56:57
+ DONE  Compiled successfully in 723ms23:42:18
 
- WAIT  Compiling...20:56:59
+ WAIT  Compiling...23:42:47
 
- DONE  Compiled successfully in 884ms20:57:00
+ DONE  Compiled successfully in 1009ms23:42:48
 
- WAIT  Compiling...20:57:03
+ WAIT  Compiling...23:43:24
 
- DONE  Compiled successfully in 732ms20:57:04
+ DONE  Compiled successfully in 656ms23:43:25
 
- WAIT  Compiling...20:57:53
+ WAIT  Compiling...23:43:31
 
- DONE  Compiled successfully in 1038ms20:57:54
+ DONE  Compiled successfully in 629ms23:43:32
 
- WAIT  Compiling...20:58:16
+ WAIT  Compiling...23:43:39
 
- DONE  Compiled successfully in 861ms20:58:17
+ DONE  Compiled successfully in 577ms23:43:39
 
- WAIT  Compiling...20:58:26
+ WAIT  Compiling...23:45:05
 
- DONE  Compiled successfully in 455ms20:58:27
+ DONE  Compiled successfully in 1050ms23:45:06
 
- WAIT  Compiling...20:58:43
+ WAIT  Compiling...23:45:11
 
- DONE  Compiled successfully in 1020ms20:58:45
+ DONE  Compiled successfully in 669ms23:45:12
 
- WAIT  Compiling...20:58:45
+ WAIT  Compiling...23:45:39
 
- DONE  Compiled successfully in 416ms20:58:45
+ DONE  Compiled successfully in 776ms23:45:40
 
- WAIT  Compiling...20:58:50
+ WAIT  Compiling...23:45:57
 
- DONE  Compiled successfully in 441ms20:58:51
+ DONE  Compiled successfully in 628ms23:45:58
 
- WAIT  Compiling...21:04:11
+ WAIT  Compiling...23:46:12
 
- DONE  Compiled successfully in 954ms21:04:12
+ DONE  Compiled successfully in 941ms23:46:13
 
- WAIT  Compiling...21:04:25
+ WAIT  Compiling...23:52:16
 
- DONE  Compiled successfully in 520ms21:04:26
+ DONE  Compiled successfully in 759ms23:52:17
 
- WAIT  Compiling...21:05:41
+ WAIT  Compiling...23:52:22
 
- DONE  Compiled successfully in 1018ms21:05:43
+ DONE  Compiled successfully in 509ms23:52:23
 
- WAIT  Compiling...21:08:15
+ WAIT  Compiling...23:53:08
 
- DONE  Compiled successfully in 950ms21:08:17
+ DONE  Compiled successfully in 508ms23:53:09
 
- WAIT  Compiling...21:08:35
+ WAIT  Compiling...23:53:28
 
- DONE  Compiled successfully in 472ms21:08:36
+ DONE  Compiled successfully in 682ms23:53:29
 
- WAIT  Compiling...21:14:55
+ WAIT  Compiling...01:03:15
 
- DONE  Compiled successfully in 736ms21:14:56
+ DONE  Compiled successfully in 784ms01:03:16
 
- WAIT  Compiling...21:15:22
+ WAIT  Compiling...01:03:19
 
- DONE  Compiled successfully in 628ms21:15:22
+ DONE  Compiled successfully in 578ms01:03:20
 
- WAIT  Compiling...21:15:23
+ WAIT  Compiling...01:03:24
 
- DONE  Compiled successfully in 442ms21:15:23
+ DONE  Compiled successfully in 629ms01:03:25
 
- WAIT  Compiling...21:16:11
+ WAIT  Compiling...01:03:29
 
- DONE  Compiled successfully in 768ms21:16:12
+ DONE  Compiled successfully in 769ms01:03:30
 
- WAIT  Compiling...21:22:31
+ WAIT  Compiling...01:04:43
 
- DONE  Compiled successfully in 875ms21:22:32
+ DONE  Compiled successfully in 776ms01:04:45
 
- WAIT  Compiling...21:22:53
+ WAIT  Compiling...01:04:46
 
- DONE  Compiled successfully in 670ms21:22:54
+ DONE  Compiled successfully in 398ms01:04:47
 
- WAIT  Compiling...21:23:31
+ WAIT  Compiling...01:04:50
 
- DONE  Compiled successfully in 768ms21:23:32
+ DONE  Compiled successfully in 417ms01:04:51
 
- WAIT  Compiling...21:33:44
+ WAIT  Compiling...01:04:56
 
- DONE  Compiled successfully in 496ms21:33:45
+ DONE  Compiled successfully in 908ms01:04:57
 
- WAIT  Compiling...21:34:26
+ WAIT  Compiling...01:07:30
 
- DONE  Compiled successfully in 821ms21:34:27
+ DONE  Compiled successfully in 1093ms01:07:31
 
- WAIT  Compiling...21:38:01
+ WAIT  Compiling...01:07:51
 
- DONE  Compiled successfully in 851ms21:38:02
+ DONE  Compiled successfully in 694ms01:07:52
 
- WAIT  Compiling...21:38:38
+ WAIT  Compiling...01:16:49
 
- DONE  Compiled successfully in 686ms21:38:39
+ DONE  Compiled successfully in 528ms01:16:49
 
- WAIT  Compiling...21:40:52
+ WAIT  Compiling...01:16:51
 
- DONE  Compiled successfully in 386ms21:40:53
+ DONE  Compiled successfully in 726ms01:16:52
 
- WAIT  Compiling...21:41:01
+ WAIT  Compiling...01:16:54
 
- DONE  Compiled successfully in 426ms21:41:02
+ DONE  Compiled successfully in 586ms01:16:55
 
- WAIT  Compiling...21:42:20
+ WAIT  Compiling...01:16:57
 
- DONE  Compiled successfully in 569ms21:42:21
+ DONE  Compiled successfully in 918ms01:16:59
 
- WAIT  Compiling...21:43:29
+ WAIT  Compiling...01:18:05
 
- DONE  Compiled successfully in 764ms21:43:30
+ DONE  Compiled successfully in 493ms01:18:05
 
- WAIT  Compiling...21:46:47
+ WAIT  Compiling...01:23:34
 
- DONE  Compiled successfully in 635ms21:46:48
+ DONE  Compiled successfully in 410ms01:23:34
 
- WAIT  Compiling...21:47:44
+ WAIT  Compiling...01:38:04
 
- DONE  Compiled successfully in 776ms21:47:45
+ DONE  Compiled successfully in 780ms01:38:05
 
- WAIT  Compiling...21:48:31
+ WAIT  Compiling...01:38:37
 
- DONE  Compiled successfully in 1006ms21:48:33
+ DONE  Compiled successfully in 488ms01:38:38
 
- WAIT  Compiling...21:48:36
+ WAIT  Compiling...01:39:44
 
- DONE  Compiled successfully in 790ms21:48:37
+ DONE  Compiled successfully in 978ms01:39:45
 
- WAIT  Compiling...21:48:39
+ WAIT  Compiling...01:39:57
 
- DONE  Compiled successfully in 933ms21:48:40
+ DONE  Compiled successfully in 861ms01:39:58
 
- WAIT  Compiling...21:50:46
+ WAIT  Compiling...01:40:02
 
- DONE  Compiled successfully in 601ms21:50:46
+ DONE  Compiled successfully in 609ms01:40:03
 
- WAIT  Compiling...21:51:58
+ WAIT  Compiling...01:41:29
 
- DONE  Compiled successfully in 914ms21:51:59
+ DONE  Compiled successfully in 770ms01:41:30
 
- WAIT  Compiling...21:52:24
+ WAIT  Compiling...01:41:46
 
- DONE  Compiled successfully in 587ms21:52:25
+ ERROR  Failed to compile with 1 errors01:41:47
 
- WAIT  Compiling...22:26:39
+This dependency was not found:
 
- DONE  Compiled successfully in 1168ms22:26:40
+* @/components/Validate in ./src/router/index.js
 
- WAIT  Compiling...22:29:43
+To install it, you can run: npm install --save @/components/Validate
+ WAIT  Compiling...01:42:07
 
- DONE  Compiled successfully in 929ms22:29:44
+ DONE  Compiled successfully in 763ms01:42:08
 
- WAIT  Compiling...22:29:53
+ WAIT  Compiling...01:42:29
 
- DONE  Compiled successfully in 694ms22:29:54
+ DONE  Compiled successfully in 516ms01:42:30
 
- WAIT  Compiling...22:30:03
+ WAIT  Compiling...01:43:50
 
- DONE  Compiled successfully in 1025ms22:30:05
+ DONE  Compiled successfully in 1168ms01:43:51
 
- WAIT  Compiling...22:35:05
+ WAIT  Compiling...01:43:55
 
- DONE  Compiled successfully in 576ms22:35:05
+ DONE  Compiled successfully in 777ms01:43:56
 
- WAIT  Compiling...22:36:23
+ WAIT  Compiling...01:43:59
 
- DONE  Compiled successfully in 938ms22:36:24
+ DONE  Compiled successfully in 853ms01:44:00
+
+ WAIT  Compiling...01:44:07
+
+ DONE  Compiled successfully in 837ms01:44:08
+
+ WAIT  Compiling...01:44:33
+
+ DONE  Compiled successfully in 738ms01:44:34
+
+ WAIT  Compiling...01:45:24
+
+ DONE  Compiled successfully in 757ms01:45:25
+
+ WAIT  Compiling...01:48:23
+
+ DONE  Compiled successfully in 547ms01:48:23
+
+ WAIT  Compiling...02:42:49
+
+ DONE  Compiled successfully in 1207ms02:42:51
+
+ WAIT  Compiling...02:42:58
+
+ DONE  Compiled successfully in 657ms02:42:59
+
+ WAIT  Compiling...02:43:29
+
+ DONE  Compiled successfully in 1316ms02:43:31
+
+ WAIT  Compiling...02:44:50
+
+ DONE  Compiled successfully in 636ms02:44:51
+
+ WAIT  Compiling...02:45:20
+
+ DONE  Compiled successfully in 963ms02:45:21
+
+ WAIT  Compiling...02:46:20
+
+ DONE  Compiled successfully in 1181ms02:46:22
+
+ WAIT  Compiling...02:47:54
+
+ DONE  Compiled successfully in 700ms02:47:55
+
+ WAIT  Compiling...02:48:49
+
+ DONE  Compiled successfully in 574ms02:48:50
+
+ WAIT  Compiling...02:49:13
+
+ DONE  Compiled successfully in 804ms02:49:14
+
+ WAIT  Compiling...02:49:27
+
+ DONE  Compiled successfully in 436ms02:49:28
+
+ WAIT  Compiling...02:50:54
+
+ DONE  Compiled successfully in 764ms02:50:55
+
+ WAIT  Compiling...02:51:40
+
+ DONE  Compiled successfully in 1036ms02:51:41
+
+ WAIT  Compiling...02:52:47
+
+ DONE  Compiled successfully in 1386ms02:52:49
+
+ WAIT  Compiling...02:52:59
+
+ DONE  Compiled successfully in 883ms02:53:00
+
+ WAIT  Compiling...02:53:53
+
+ DONE  Compiled successfully in 765ms02:53:54
+
+ WAIT  Compiling...02:54:23
+
+ DONE  Compiled successfully in 1145ms02:54:25
+
+ WAIT  Compiling...02:56:02
+
+ DONE  Compiled successfully in 1266ms02:56:04
+
+ WAIT  Compiling...02:57:27
+
+ DONE  Compiled successfully in 987ms02:57:28
+
+ WAIT  Compiling...03:02:35
+
+ DONE  Compiled successfully in 979ms03:02:36
+
+ WAIT  Compiling...03:04:03
+
+ DONE  Compiled successfully in 920ms03:04:04
+
+ WAIT  Compiling...03:05:57
+
+ DONE  Compiled successfully in 1343ms03:05:59
+
+ WAIT  Compiling...03:06:35
+
+ DONE  Compiled successfully in 909ms03:06:36
+
+ WAIT  Compiling...03:06:42
+
+ DONE  Compiled successfully in 494ms03:06:43
+
+ WAIT  Compiling...03:07:01
+
+ DONE  Compiled successfully in 788ms03:07:02
+
+ WAIT  Compiling...03:07:26
+
+ DONE  Compiled successfully in 904ms03:07:27
+
+ WAIT  Compiling...03:11:37
+
+ DONE  Compiled successfully in 917ms03:11:39
+
+ WAIT  Compiling...03:11:48
+
+ DONE  Compiled successfully in 616ms03:11:49
+
+ WAIT  Compiling...03:11:49
+
+ DONE  Compiled successfully in 232ms03:11:49
+
+ WAIT  Compiling...03:13:37
+
+ DONE  Compiled successfully in 1102ms03:13:39
+
+ WAIT  Compiling...03:14:13
+
+ DONE  Compiled successfully in 595ms03:14:14
+
+ WAIT  Compiling...03:15:43
+
+ DONE  Compiled successfully in 647ms03:15:44
+
+ WAIT  Compiling...03:16:32
+
+ DONE  Compiled successfully in 607ms03:16:32
+
+ WAIT  Compiling...03:17:07
+
+ DONE  Compiled successfully in 1195ms03:17:08
+
+ WAIT  Compiling...03:17:34
+
+ DONE  Compiled successfully in 817ms03:17:35
+
+ WAIT  Compiling...03:18:13
+
+ DONE  Compiled successfully in 1188ms03:18:15
+
+ WAIT  Compiling...03:18:54
+
+ DONE  Compiled successfully in 1276ms03:18:55
+
+ WAIT  Compiling...03:19:05
+
+ DONE  Compiled successfully in 902ms03:19:06
+
+ WAIT  Compiling...03:19:46
+
+ DONE  Compiled successfully in 1161ms03:19:48
+
+ WAIT  Compiling...03:20:00
+
+ DONE  Compiled successfully in 816ms03:20:01
+
+ WAIT  Compiling...03:20:30
+
+ DONE  Compiled successfully in 1201ms03:20:32
+
+ WAIT  Compiling...03:20:50
+
+ DONE  Compiled successfully in 832ms03:20:51
+
+ WAIT  Compiling...03:21:01
+
+ DONE  Compiled successfully in 500ms03:21:02
+
+ WAIT  Compiling...03:21:14
+
+ DONE  Compiled successfully in 777ms03:21:15
+
+ WAIT  Compiling...03:21:29
+
+ DONE  Compiled successfully in 1172ms03:21:30
+
+ WAIT  Compiling...03:23:05
+
+ DONE  Compiled successfully in 1115ms03:23:06
+
+ WAIT  Compiling...03:23:10
+
+ DONE  Compiled successfully in 1001ms03:23:11
+
+ WAIT  Compiling...03:27:21
+
+ DONE  Compiled successfully in 799ms03:27:22
+
+ WAIT  Compiling...03:27:55
+
+ DONE  Compiled successfully in 969ms03:27:57
+
+ WAIT  Compiling...03:28:21
+
+ DONE  Compiled successfully in 1083ms03:28:22
+
+ WAIT  Compiling...03:29:55
+
+ DONE  Compiled successfully in 1005ms03:29:56
+
+ WAIT  Compiling...03:33:58
+
+ DONE  Compiled successfully in 938ms03:33:59
+
+ WAIT  Compiling...03:37:58
+
+ DONE  Compiled successfully in 1327ms03:37:59
+
+ WAIT  Compiling...03:40:51
+
+ DONE  Compiled successfully in 1278ms03:40:52
+
+ WAIT  Compiling...03:54:23
+
+ DONE  Compiled successfully in 1291ms03:54:24
+
+ WAIT  Compiling...03:54:38
+
+ DONE  Compiled successfully in 732ms03:54:39
+
+ WAIT  Compiling...03:55:01
+
+ DONE  Compiled successfully in 1167ms03:55:02
+
+ WAIT  Compiling...03:55:29
+
+ DONE  Compiled successfully in 1068ms03:55:30
+
+ WAIT  Compiling...03:57:22
+
+ DONE  Compiled successfully in 893ms03:57:23
+
+ WAIT  Compiling...03:57:34
+
+ DONE  Compiled successfully in 1000ms03:57:35
+
+ WAIT  Compiling...03:58:43
+
+ DONE  Compiled successfully in 1014ms03:58:45
+
+ WAIT  Compiling...03:58:55
+
+ DONE  Compiled successfully in 1268ms03:58:56
+
+ WAIT  Compiling...03:59:57
+
+ DONE  Compiled successfully in 751ms03:59:58
+
+ WAIT  Compiling...04:01:08
+
+ DONE  Compiled successfully in 501ms04:01:09
+
+ WAIT  Compiling...04:01:47
+
+ DONE  Compiled successfully in 1015ms04:01:48
+
+ WAIT  Compiling...04:02:00
+
+ DONE  Compiled successfully in 498ms04:02:01
+
+ WAIT  Compiling...04:02:11
+
+ DONE  Compiled successfully in 540ms04:02:12
+
+ WAIT  Compiling...04:02:30
+
+ DONE  Compiled successfully in 511ms04:02:31
+
+ WAIT  Compiling...04:02:34
+
+ DONE  Compiled successfully in 857ms04:02:35
+
+ WAIT  Compiling...04:03:21
+
+ ERROR  Failed to compile with 1 errors04:03:22
+
+ error  in ./src/components/Validate.vue
+
+Syntax Error: Unexpected token, expected , (63:4)
+
+  61 |       }
+  62 |     }
+> 63 |     async validate() {
+     |     ^
+  64 |       const response = await authService.validate({
+  65 |         usrCode: this.usrCode
+  66 |       })
+
+
+
+ @ ./src/components/Validate.vue 8:0-131
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...04:03:29
+
+ ERROR  Failed to compile with 1 errors04:03:30
+
+ error  in ./src/components/Validate.vue
+
+Syntax Error: Unexpected token, expected , (63:4)
+
+  61 |       }
+  62 |     }
+> 63 |     async validate() {
+     |     ^
+  64 |       const response = await authService.validate({
+  65 |         usrCode: this.usrCode
+  66 |       })
+
+
+
+ @ ./src/components/Validate.vue 8:0-131
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...04:03:46
+
+ ERROR  Failed to compile with 2 errors04:03:47
+
+ error  in ./src/components/Validate.vue
+
+Syntax Error: Unexpected token, expected , (63:4)
+
+  61 |       }
+  62 |     }
+> 63 |     async validate() {
+     |     ^
+  64 |       const response = await authService.validate({
+  65 |         usrCode: this.usrCode
+  66 |       })
+
+
+
+ @ ./src/components/Validate.vue 8:0-131
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ error  in ./src/components/Register.vue
+
+Syntax Error: Unexpected token, expected , (65:4)
+
+  63 |       }
+  64 |     }
+> 65 |     async register() {
+     |     ^
+  66 |       const response = await authService.register({
+  67 |         usrEmail: this.usrEmail
+  68 |       })
+
+
+
+ @ ./src/components/Register.vue 8:0-131
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...04:04:01
+
+ ERROR  Failed to compile with 1 errors04:04:03
+
+ error  in ./src/components/Validate.vue
+
+Syntax Error: Unexpected token, expected , (63:4)
+
+  61 |       }
+  62 |     }
+> 63 |     async validate() {
+     |     ^
+  64 |       const response = await authService.validate({
+  65 |         usrCode: this.usrCode
+  66 |       })
+
+
+
+ @ ./src/components/Validate.vue 8:0-131
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...04:04:06
+
+ DONE  Compiled successfully in 1198ms04:04:08
 

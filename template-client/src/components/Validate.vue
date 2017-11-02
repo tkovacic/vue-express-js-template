@@ -13,30 +13,22 @@
           </li>
         </ul>
 				<ul class="navbar-nav ml-auto">
-					<a href="/#/login"><button class="btn btn-outline-success animated rubberBand my-2 my-sm-0" type="submit">Login</button></a>
-					<a href="/#/register"><button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="margin-left: 15px;">Register</button></a>
+					<a href="/#/login"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button></a>
+					<a href="/#/register"><button class="btn btn-outline-primary animated rubberBand my-2 my-sm-0" type="submit" style="margin-left: 15px;">Register</button></a>
 				</ul>
       </div>
     </nav>
     <img style="height: 40px; width: 100%;" src="static/images/banner.jpg">
     <div class="animated fadeIn" style="margin-top: 80px;">
-      <h1 class="display-3">Authentication</h1>
+      <h1 class="display-3">Register Validation</h1>
       <hr class="my-4">
-      <form @submit.prevent="validate" style="display: inline-flex; align-items: center;" novalidate>
+      <form @submit.prevent="validateForm" style="display: inline-flex; align-items: center;" novalidate>
         <div style="width: 600px;">
           <div class="form-group">
-            <label class="float-left" for="usrEmail">Email</label>
-            <input type="email" v-model="usrEmail" id="usrEmail" name="usrEmail" v-validate="'required|email'" class="form-control" v-bind:class="{ 'input': true, 'has-error': errors.has('usrEmail') }" aria-describedby="emailHelp" placeholder="example@email.com">
-            <span v-show="errors.has('usrEmail')" class="help is-danger">{{ errors.first('usrEmail') }}</span>
+            <label class="float-left" for="usrCode">Validation Code</label>
+            <input type="text" v-model="usrCode" id="usrCode" name="usrCode" v-validate="'required|alpha_num'" class="form-control" v-bind:class="{ 'input': true, 'has-error': errors.has('usrCode') }" placeholder="abcd1234">
+            <span v-show="errors.has('usrCode')" class="help is-danger">{{ errors.first('usrCode') }}</span>
           </div>
-          <br>
-          <div class="form-group" :class="{ 'control': true }">
-            <label class="float-left" for="usrPass">Password</label>
-            <input type="password" v-model="usrPass" id="usrPass" name="usrPass" v-validate="'required|alpha_num'" class="form-control" v-bind:class="{ 'input': true, 'has-error': errors.has('usrPass') }" placeholder="password">
-            <span v-show="errors.has('usrPass')" class="help is-danger">{{ errors.first('usrPass') }}</span>
-          </div>
-          <small id="emailHelp" class="form-text text-muted float-left">We will never share your email or password.</small>
-          <br>
           <br>
           <button type="submit" class="btn btn-primary float-left">Submit</button>
         </div>
@@ -53,26 +45,24 @@ import authService from '@/services/authService';
 Vue.use(VeeValidate);
 
 export default {
-  name: 'Login',
+  name: 'Validate',
   data () {
     return {
-      usrEmail: '',
-      usrPass: ''
+      usrCode: ''
     }
   },
   methods: {
-    validate(e) {
+    validateForm(e) {
       this.$validator.validateAll();
 
       if(!this.errors.any()) {
         this.errors.clear();
-        this.login();
+        this.validate();
       }
     },
-    async login() {
-      const response = await authService.login({
-        usrEmail: this.usrEmail,
-        usrPass: this.usrPass
+    async validate() {
+      const response = await authService.validate({
+        usrCode: this.usrCode
       })
       alert(response.data);
     }

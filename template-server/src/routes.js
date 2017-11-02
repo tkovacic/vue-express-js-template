@@ -14,4 +14,8 @@ module.exports = function(app) {
 	app.post('/register', function(req, res) {
 		authController.register(req, res);
 	});
+
+	app.post('/validate', function(req, res) {
+		authController.validate(req, res);
+	});
 }

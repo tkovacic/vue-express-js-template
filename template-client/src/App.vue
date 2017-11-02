@@ -4,7 +4,7 @@
       <router-view/>
     </div>
     <footer class="footer">
-      <a class="float-right" href="https://www.linkedin.com/in/timothy-kovacic-7731129a/">Tim Kovacic 2017</a>
+      <a class="float-right footerText" href="https://www.linkedin.com/in/timothy-kovacic-7731129a/" target="_blank">Tim Kovacic 2017</a>
     </footer>
   </div>
 </template>

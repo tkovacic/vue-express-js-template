@@ -6,5 +6,8 @@ export default {
 	},
 	login(creds) {
 		return api().post('login', creds);
+	},
+	validate(code) {
+		return api().post('validate', code);
 	}
 }

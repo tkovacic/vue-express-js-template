@@ -15,7 +15,16 @@ module.exports = {
 			if(response == true) {
 				res.send(`Authenticated ${req.body.usrEmail}, ${req.body.usrPass} - Login Complete!`);
 			} else {
-				res.send(`Failed to authenticate ${req.body.usrEmail}, ${req.body.usrPass}!`);
+				res.send(`Failed to Authenticate ${req.body.usrEmail}, ${req.body.usrPass}!`);
+			}
+		});
+	},
+	validate(req, res) {
+		const response = authDB.validate(req.body.usrCode).then(function() {
+			if(response == true) {
+				res.send(`Code: ${req.body.usrCode} Validated!`);
+			} else {
+				res.send(`Code: ${req.body.usrCode} Failed to Validate!`);
 			}
 		});
 	}
