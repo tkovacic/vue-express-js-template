@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #fff; min-height: 80px;">
       <a class="navbar-brand animated rubberBand" href="/#/"><img style="width: 30px;" src="static/images/logo.png">
-        Nemina</a>
+        Title</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -23,7 +23,7 @@
       <h1 class="display-3">Dobar Don!</h1>
       <p class="lead">This is a vueJS project under construction</p>
       <hr class="my-4">
-      <p>HTML5 Socket.io Multiplayer Game using Pixi.js for canvas rendering</p>
+      <p>VueJS Client Listening on 8080 | ExpressJS Server Listening on 8081</p>
       <a href="/#/about"><button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Learn more</button></a>
     </div>
   </div>
