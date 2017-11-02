@@ -4,7 +4,7 @@ import Home from '@/components/Home'
 import About from '@/components/About'
 import Login from '@/components/Login'
 import Register from '@/components/Register'
-import Validate from '@/components/Validate'
+import Activate from '@/components/Activate'
 
 Vue.use(Router)
 
@@ -31,9 +31,9 @@ export default new Router({
       component: Register
     },
     {
-      path: '/validate',
-      name: 'Validate',
-      component: Validate
+      path: '/activate',
+      name: 'Activate',
+      component: Activate
     }
   ]
 })

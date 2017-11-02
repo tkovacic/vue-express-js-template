@@ -26,6 +26,6 @@ body {
 .help.is-danger {
   color: red;
 }
-.input {
-  border: 2px solid green;
+.form-control {
+  border: 1px solid #e4e4e4;
 }

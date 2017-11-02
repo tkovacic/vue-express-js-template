@@ -26,7 +26,7 @@
         <div style="width: 600px;">
           <div class="form-group">
             <label class="float-left" for="usrEmail">Email</label>
-            <input type="email" v-model="usrEmail" id="usrEmail" name="usrEmail" v-validate="'required|email'" class="form-control" v-bind:class="{ 'input': true, 'has-error': errors.has('usrEmail') }" aria-describedby="emailHelp" placeholder="example@email.com">
+            <input type="email" v-model="usrEmail" id="usrEmail" name="usrEmail" v-validate="'required|email'" class="form-control" v-bind:class="{ 'input': true, 'has-error animated shake': errors.has('usrEmail') }" aria-describedby="emailHelp" placeholder="example@email.com">
             <span v-show="errors.has('usrEmail')" class="help is-danger">{{ errors.first('usrEmail') }}</span>
           </div>
           <small id="emailHelp" class="form-text text-muted float-left">We will never share your email or password.</small>

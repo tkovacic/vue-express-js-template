@@ -21,12 +21,12 @@
     <img style="height: 40px; width: 100%;" src="static/images/banner.jpg">
     <div class="animated fadeIn" style="margin-top: 80px;">
       <h1 class="display-3">Register Validation</h1>
-      <hr class="my-4">
+      <hr class="my-4" style="height: 2px;">
       <form @submit.prevent="validateForm" style="display: inline-flex; align-items: center;" novalidate>
         <div style="width: 600px;">
           <div class="form-group">
             <label class="float-left" for="usrCode">Validation Code</label>
-            <input type="text" v-model="usrCode" id="usrCode" name="usrCode" v-validate="'required|alpha_num'" class="form-control" v-bind:class="{ 'input': true, 'has-error': errors.has('usrCode') }" placeholder="abcd1234">
+            <input type="text" v-model="usrCode" id="usrCode" name="usrCode" v-validate="'required|alpha_num'" class="form-control" v-bind:class="{ 'input': true, 'has-error animated shake': errors.has('usrCode') }" placeholder="abcd1234">
             <span v-show="errors.has('usrCode')" class="help is-danger">{{ errors.first('usrCode') }}</span>
           </div>
           <br>
@@ -53,12 +53,16 @@ export default {
   },
   methods: {
     validateForm(e) {
-      this.$validator.validateAll();
-
-      if(!this.errors.any()) {
-        this.errors.clear();
-        this.validate();
-      }
+      this.$validator.validateAll().then(function(result) {
+        if(!this.errors.any()) {
+          if(!result) {
+            //failed
+          } else {
+            this.errors.clear();
+            this.validate();
+          }
+        }
+      });
     },
     async validate() {
       const response = await authService.validate({
