@@ -57,11 +57,11 @@ export default {
 
       if(!this.errors.any()) {
         this.errors.clear();
-        this.validate();
+        this.activate();
       }
     },
-    async validate() {
-      const response = await authService.validate({
+    async activate() {
+      const response = await authService.activate({
         usrCode: this.usrCode
       })
       alert(response.data);

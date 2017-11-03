@@ -19,8 +19,8 @@ module.exports = {
 			}
 		});
 	},
-	validate(req, res) {
-		const response = authDB.validate(req.body.usrCode).then(function() {
+	activate(req, res) {
+		const response = authDB.activate(req.body.usrCode).then(function() {
 			if(response == true) {
 				res.send(`Code: ${req.body.usrCode} Validated!`);
 			} else {

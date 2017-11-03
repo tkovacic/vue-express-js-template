@@ -28,7 +28,7 @@ module.exports = {
 		//connection.end();
 		return deferred.promise;
 	},
-	validate() {
+	activate() {
 		var deferred = q.defer(); // Use Q
 		var codeMatch = false;
 		//deferred.reject(err);
